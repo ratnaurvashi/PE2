@@ -17,7 +17,7 @@ public class EvenNumTestTest {
     }
     @Test
     public void testIsNotEven(){
-        boolean result = test.checkEven(83);
+        boolean ans = test.checkEven(83);
         assertNotEquals(true,result);
     }
 }
