@@ -13,11 +13,11 @@ public class EvenNumTestTest {
     @Test
     public void testIsEven(){
         boolean result = test.checkEven(66);
-        assertEquals(true,result);
+        assertTrue(result);
     }
     @Test
     public void testIsNotEven(){
         boolean ans = test.checkEven(83);
-        assertNotEquals(true,result);
+        assertNotEquals(true,ans);
     }
 }

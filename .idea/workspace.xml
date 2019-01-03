@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50b96766-71c4-4900-9d24-f7d8e68ef6ae" name="Default Changelist" comment="changed" />
+    <list default="true" id="50b96766-71c4-4900-9d24-f7d8e68ef6ae" name="Default Changelist" comment="Code Implementation for test cases">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/Computation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/Computation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/EvenNumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/EvenNumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/LongFactorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/LongFactorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/MemberVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/MemberVariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/PowerOfFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/PowerOfFour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/EvenNumTestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/EvenNumTestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/LongFactorialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/LongFactorialTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,13 +20,97 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/test/LongFactorialTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/PowerOfFour.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/test/PowerOfFourTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/LongFactorial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/Palindrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/test/MemberVariableTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/MemberVariable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -35,20 +129,24 @@
         <option value="$PROJECT_DIR$/src/main/test/PalindromeTest2.java" />
         <option value="$PROJECT_DIR$/src/main/test/PalindromeTest.java" />
         <option value="$PROJECT_DIR$/src/main/test/PowerOfFourTest.java" />
+        <option value="$PROJECT_DIR$/src/main/test/ComputationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/test/MemberVariableTest.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Computation.java" />
         <option value="$PROJECT_DIR$/src/main/Java/EvenNumTest.java" />
         <option value="$PROJECT_DIR$/src/main/test/EvenNumTestTest.java" />
-        <option value="$PROJECT_DIR$/src/main/test/ComputationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/Java/Computation.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/PowerOfFour.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/MemberVariable.java" />
         <option value="$PROJECT_DIR$/src/main/test/LongFactorialTest.java" />
-        <option value="$PROJECT_DIR$/src/main/test/MemberVariableTest.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/LongFactorial.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Palindrome.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
-    <option name="y" value="67" />
-    <option name="width" value="655" />
-    <option name="height" value="701" />
+    <option name="y" value="27" />
+    <option name="width" value="425" />
+    <option name="height" value="634" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -56,29 +154,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="PE2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PE2" type="462c0819:PsiDirectoryNode" />
+              <item name="PE-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PE-2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PE2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PE2" type="462c0819:PsiDirectoryNode" />
+              <item name="PE-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PE-2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PE2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PE2" type="462c0819:PsiDirectoryNode" />
+              <item name="PE-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PE-2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PE2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PE2" type="462c0819:PsiDirectoryNode" />
+              <item name="PE-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PE-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PE-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PE-2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
@@ -87,14 +191,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546430616785" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546497957910" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IdeaProjects/Assignment1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -124,6 +229,65 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.PowerOfFourTest.testIsNotPowerOfFour">
+    <configuration name="LongFactorialTest.TestFact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PE2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LongFactorialTest" />
+      <option name="METHOD_NAME" value="TestFact" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberVariableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PE2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MemberVariableTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberVariableTest.getNameSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PE2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MemberVariableTest" />
+      <option name="METHOD_NAME" value="getNameSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PowerOfFourTest.testIsNotPowerOfFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PE2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PowerOfFourTest" />
+      <option name="METHOD_NAME" value="testIsNotPowerOfFour" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PowerOfFourTest.testIsPowerOfFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PE2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PowerOfFourTest" />
+      <option name="METHOD_NAME" value="testIsPowerOfFour" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PowerOfFourTest.testIsNotPowerOfFour" />
+        <item itemvalue="JUnit.PowerOfFourTest.testIsPowerOfFour" />
+        <item itemvalue="JUnit.LongFactorialTest.TestFact" />
+        <item itemvalue="JUnit.MemberVariableTest" />
+        <item itemvalue="JUnit.MemberVariableTest.getNameSuccess" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -145,19 +309,53 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="MemberVariableTest_getNameSuccess - 2019.01.02 at 18h 47m 37s.xml">
+      <configuration name="MemberVariableTest.getNameSuccess" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemberVariableTest - 2019.01.02 at 18h 48m 08s.xml">
+      <configuration name="MemberVariableTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LongFactorialTest_TestFact - 2019.01.02 at 18h 49m 41s.xml">
+      <configuration name="LongFactorialTest.TestFact" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LongFactorialTest_TestFact - 2019.01.02 at 18h 49m 58s.xml">
+      <configuration name="LongFactorialTest.TestFact" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LongFactorialTest_TestFact - 2019.01.02 at 18h 52m 18s.xml">
+      <configuration name="LongFactorialTest.TestFact" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LongFactorialTest_TestFact - 2019.01.02 at 18h 52m 20s.xml">
+      <configuration name="LongFactorialTest.TestFact" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LongFactorialTest_TestFact - 2019.01.02 at 18h 52m 57s.xml">
+      <configuration name="LongFactorialTest.TestFact" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LongFactorialTest_TestFact - 2019.01.02 at 18h 53m 11s.xml">
+      <configuration name="LongFactorialTest.TestFact" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PowerOfFourTest_testIsPowerOfFour - 2019.01.03 at 12h 13m 57s.xml">
+      <configuration name="PowerOfFourTest.testIsPowerOfFour" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PowerOfFourTest_testIsNotPowerOfFour - 2019.01.03 at 12h 14m 01s.xml">
+      <configuration name="PowerOfFourTest.testIsNotPowerOfFour" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="743" extended-state="7" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25379092" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33280128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -174,6 +372,34 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.85155624" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011971" side_tool="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49880287" weight="0.32899022" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24980047" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -217,7 +443,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed" />
+    <MESSAGE value="Code Implementation for test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code Implementation for test cases" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -225,60 +452,67 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/test/PalindromeTest.groovy" />
-    <entry file="file://$PROJECT_DIR$/src/main/Java/Palindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/PalindromeTest2.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/Java/PowerOfFour.java">
+    <entry file="file://$PROJECT_DIR$/src/main/test/ComputationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/EvenNumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        <state relative-caret-position="150">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Java/Computation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/LongFactorial.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Java/EvenNumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+        <state relative-caret-position="180">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/MemberVariable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/test/EvenNumTestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        <state relative-caret-position="240">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/PalindromeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="33" />
+        <state>
+          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/MemberVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/MemberVariableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -287,32 +521,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/LongFactorialTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="180">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/EvenNumTestTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Java/LongFactorial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/ComputationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Java/PowerOfFour.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="120">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/PowerOfFourTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="75">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Palindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>

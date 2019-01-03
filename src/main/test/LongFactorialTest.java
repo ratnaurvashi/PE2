@@ -15,7 +15,7 @@ public class LongFactorialTest{
 
     @Test
     public void TestFact() {
-        long result = test.fact(5);
+        int result = test.fact(5);
         assertEquals(120,result);
     }
 }
