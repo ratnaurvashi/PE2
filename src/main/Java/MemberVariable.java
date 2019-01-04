@@ -1,25 +1,28 @@
 import java.util.Scanner;
 
 public class MemberVariable {
+    private String name;
+    private int salary;
+    private int age;
 
-    public void setName(String name){
-
+    public void setName(String namei){
+        name= namei;
     }
     public String getName(){
-        
+        return name;
     }
 
-    public void setSalary(int salary){
-
+    public void setSalary(int salaryi){
+        salary=salaryi;
     }
     public int getSalary(){
-
+        return salary;
     }
-    public void setAge(int age){
-
+    public void setAge(int agei){
+        age=agei;
     }
     public int getAge(){
-
+        return age;
     }
 
     public static void main(String[] args){
