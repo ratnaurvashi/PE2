@@ -2,28 +2,24 @@ import java.util.Scanner;
 
 public class MemberVariable {
 
-    String name;
-    int salary;
-    int age;
+    public void setName(String name){
 
-    public void setName(String n){
-        this.name=n;
     }
     public String getName(){
-        return this.name;
+        
     }
 
-    public void setSalary(int s){
-        this.salary=s;
+    public void setSalary(int salary){
+
     }
     public int getSalary(){
-        return this.salary;
+
     }
-    public void setAge(int a){
-        this.age= a;
+    public void setAge(int age){
+
     }
     public int getAge(){
-        return this.age;
+
     }
 
     public static void main(String[] args){
