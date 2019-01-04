@@ -5,24 +5,24 @@ public class MemberVariable {
     private int salary;
     private int age;
 
-    public void setName(String namei){
-        name= namei;
+    public void setName(String name){
+        name=this.name;
     }
     public String getName(){
-        return name;
+        return this.name;
     }
 
-    public void setSalary(int salaryi){
-        salary=salaryi;
+    public void setSalary(int salary){
+        salary=this.salary;
     }
     public int getSalary(){
-        return salary;
+        return this.salary;
     }
-    public void setAge(int agei){
-        age=agei;
+    public void setAge(int age){
+        age=this.age;
     }
     public int getAge(){
-        return age;
+        return this.age;
     }
 
     public static void main(String[] args){

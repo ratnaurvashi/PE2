@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50b96766-71c4-4900-9d24-f7d8e68ef6ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/MemberVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/MemberVariable.java" afterDir="false" />
-    </list>
+    <list default="true" id="50b96766-71c4-4900-9d24-f7d8e68ef6ae" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,43 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/MemberVariable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-              <folding>
-                <element signature="e#165#166#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/test/MemberVariableTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -140,7 +101,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546591012494" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546591136195" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -265,16 +226,17 @@
       <option name="project" value="LOCAL" />
       <updated>1546588724485</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="chnaged ques3">
+      <created>1546591035674</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1546591035674</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MemberVariableTest_getNameSuccess - 2019.01.02 at 18h 47m 37s.xml">
-      <configuration name="MemberVariableTest.getNameSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MemberVariableTest - 2019.01.02 at 18h 48m 08s.xml">
-      <configuration name="MemberVariableTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LongFactorialTest_TestFact - 2019.01.02 at 18h 49m 41s.xml">
       <configuration name="LongFactorialTest.TestFact" configurationId="JUnit" />
     </history-entry>
@@ -299,12 +261,17 @@
     <history-entry file="PowerOfFourTest_testIsNotPowerOfFour - 2019.01.03 at 12h 14m 01s.xml">
       <configuration name="PowerOfFourTest.testIsNotPowerOfFour" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MemberVariableTest - 2019.01.04 at 14h 06m 47s.xml">
+      <configuration name="MemberVariableTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemberVariableTest - 2019.01.04 at 14h 06m 54s.xml">
+      <configuration name="MemberVariableTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33838788" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.33838788" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -321,7 +288,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5011971" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49880287" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24980047" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -404,7 +371,8 @@
     <MESSAGE value="changed" />
     <MESSAGE value="Code Implementation for test cases" />
     <MESSAGE value="changing ques3" />
-    <option name="LAST_COMMIT_MESSAGE" value="changing ques3" />
+    <MESSAGE value="chnaged ques3" />
+    <option name="LAST_COMMIT_MESSAGE" value="chnaged ques3" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -486,6 +454,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/MemberVariableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Java/MemberVariable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -503,16 +481,6 @@
             <element signature="e#428#429#0" expanded="true" />
             <element signature="e#459#460#0" expanded="true" />
             <element signature="e#484#485#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/MemberVariableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
