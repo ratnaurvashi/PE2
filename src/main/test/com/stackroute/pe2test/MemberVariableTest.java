@@ -1,7 +1,8 @@
-import org.junit.After;
+package com.stackroute.pe2test;
+import com.stackroute.pe2main.MemberVariable;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 public class MemberVariableTest{
 
@@ -17,7 +18,7 @@ public class MemberVariableTest{
     public void getNameSuccess(){
         String name="Harry Potter";
         test.setName("Harry Potter");
-        assertEquals(name,test.getName());
+        Assert.assertEquals(name,test.getName());
 
     }
 
@@ -26,7 +27,7 @@ public class MemberVariableTest{
 
         String namefail="Harry Potter";
         test.setName("Harry");
-        assertNotEquals(namefail,test.getName());
+        Assert.assertNotEquals(namefail,test.getName());
 
     }
 
@@ -34,7 +35,7 @@ public class MemberVariableTest{
     public void getSalarySuccess(){
         int salary=5000;
         test.setSalary(5000);
-        assertEquals(salary,test.getSalary());
+        Assert.assertEquals(salary,test.getSalary());
 
     }
 
@@ -42,7 +43,7 @@ public class MemberVariableTest{
     public void getSalaryFailure(){
         int salaryfail=50000;
         test.setSalary(5000);
-        assertNotEquals(salaryfail,test.getSalary());
+        Assert.assertNotEquals(salaryfail,test.getSalary());
 
     }
 
@@ -50,15 +51,13 @@ public class MemberVariableTest{
     public void getAgeSuccess(){
         int age=30;
         test.setAge(30);
-        assertEquals(age,test.getAge());
-
-
+        Assert.assertEquals(age,test.getAge());
     }
 
     @Test
     public void getAgeFail(){
         int agefail=30;
         test.setAge(300);
-        assertNotEquals(agefail,test.getAge());
+        Assert.assertNotEquals(agefail,test.getAge());
     }
 }

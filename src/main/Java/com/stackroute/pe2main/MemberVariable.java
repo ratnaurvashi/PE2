@@ -1,10 +1,12 @@
-import java.util.Scanner;
+package com.stackroute.pe2main;
 
 public class MemberVariable {
+    //properties of member variable class
     private String name;
     private int salary;
     private int age;
 
+    //getters and setters for member variable class
     public void setName(String name){
         name=this.name;
     }
@@ -18,24 +20,11 @@ public class MemberVariable {
     public int getSalary(){
         return this.salary;
     }
+
     public void setAge(int age){
         age=this.age;
     }
     public int getAge(){
         return this.age;
-    }
-
-    public static void main(String[] args){
-        MemberVariable q = new MemberVariable();
-        Scanner sc = new Scanner(System.in);
-        String namei = sc.nextLine();
-        q.setName(namei);
-        System.out.println(q.getName());
-        int salaryi = sc.nextInt();
-        q.setSalary(salaryi);
-        System.out.println(q.getSalary());
-        int agei = sc.nextInt();
-        q.setAge(agei);
-        System.out.println(q.getAge());
     }
 }

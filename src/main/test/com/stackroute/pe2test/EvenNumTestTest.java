@@ -1,3 +1,6 @@
+package com.stackroute.pe2test;
+
+import com.stackroute.pe2main.EvenNumTest;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -19,5 +22,10 @@ public class EvenNumTestTest {
     public void testIsNotEven(){
         boolean ans = test.checkEven(83);
         assertNotEquals(true,ans);
+    }
+    @Test
+    public void testIsZero(){
+        boolean ans = test.checkEven(0);
+        assertEquals(false,ans);
     }
 }
